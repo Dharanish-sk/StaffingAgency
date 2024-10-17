@@ -52,6 +52,9 @@
      
 
 }
+.employee img{
+    height: 200px;
+}
 .employee:hover,.employer:hover{
     box-shadow: 0 4px 20px rgba(34, 248, 45, 0.8);  
     border: 2px solid rgb(54, 216, 9);
