@@ -3,86 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staffing Company</title>
     <link rel="stylesheet" href="style.css">
-    <title>Staffing Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
-<h1 class="title">WELCOME TO STAFFING AGENCY</h1>
-<div class="nav">
-    <ul class="navbar">
-        <li class="home">Home</li>
-        <li class="aboutus">About Us</li>
-        <li class="staffingservice">Staffing Services </li>
-        <li class="resource">Resources</li>
-        <li class="contact">Contact Us</li>
-        
-    </ul>
+     
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img class="logo"src="logo.jpg" alt="Company Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button class="login">Sign In</button>
+                <button class="signup">Sign Up</button>
+            </div>
+        </nav>
+    </header>
 
-</div>
-<div class="slider">
-    <img src="/Public/download.jpg" alt="Staffing Agency"><h2  class="s-text">Recruitment is all about connecting with humans. In recruitment, technology is just a tool, not the focus. It should enhance and not replace vital human connections." - Unknown</h2>
-</div>
-<div class="service">
-    <div class="employee"><h3>FOR EMPLOYEE</h3><br> 
-        <img  src= "/Public/employee.jpg" alt="employee">
-        <button class="service-button">Post your Resume</button>
-    </div>
-    <div class="employer"><h3>FOR  EMPLOYER</h3><br>
-        <img class="emp-img" src="/Public/employer.jpg" alt="employee">
-        <button class="service-button">View our Services</button></div>
+   
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Top Talent Staffing Solutions</h1>
+            <p>Find the best candidates for your business needs with our specialized staffing services.</p>
+            
+            <button href="#" class="button" style="--clr: #0080FF">
+              <span class="button__icon-wrapper">
+                <svg
+                  viewBox="0 0 14 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="button__icon-svg"
+                  width="10"
+                >
+                  <path
+                    d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+            
+                <svg
+                  viewBox="0 0 14 15"
+                  fill="none"
+                  width="10"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="button__icon-svg button__icon-svg--copy"
+                >
+                  <path
+                    d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"
+                    fill="currentColor"
+                  ></path>
+                </svg>
+              </span>
+              Get Started
+            </button>
+            
+        </div>
+    </section>
+ 
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Permanent Staffing</h3>
+                <p>We help businesses hire full-time employees to build their core team with top talent.</p>
+            </div>
+            <div class="card">
+                <h3>Temporary Staffing</h3>
+                <p>Our temporary staffing solutions help you manage workload fluctuations effectively.</p>
+            </div>
+            <div class="card">
+                <h3>Executive Search</h3>
+                <p>We specialize in finding senior-level executives for your organization’s leadership roles.</p>
+            </div>
+        </div>
+    </section>
+
+ 
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <div class="testimonial-cards">
+            <div class="testimonial">
+                <p>"The team at StaffingCo helped us find the perfect candidates for our team in no time!"</p>
+                <span>- John Doe, CEO of TechCorp</span>
+            </div>
+            <div class="testimonial">
+                <p>"Their executive search services were exceptional. We hired the right people for our leadership roles."</p>
+                <span>- Jane Smith, HR Manager at FinTech</span>
+            </div>
+        </div>
+    </section>
+ 
     
-</div>
-<h2 class="achivementstitle">ACHIVEMENTS</h2> 
-<div class="achievements">  <ul class="achievement-box">
-    <li>Achievement 1: Successfully completed a project on time.</li>
-    <li>Achievement 2: Awarded Employee of the Month.</li>
-    <li>Achievement 3: Improved team productivity by 30%.</li>
-    <li>Achievement 4: Completed a certification in Web Development.</li>
-</ul>
-<ul class="achievement-box">
-    <li>Achievement 1: Successfully completed a project on time.</li>
-    <li>Achievement 2: Awarded Employee of the Month.</li>
-    <li>Achievement 3: Improved team productivity by 30%.</li>
-    <li>Achievement 4: Completed a certification in Web Development.</li>
-</ul>
-<ul class="achievement-box">
-    <li>Achievement 1: Successfully completed a project on time.</li>
-    <li>Achievement 2: Awarded Employee of the Month.</li>
-    <li>Achievement 3: Improved team productivity by 30%.</li>
-    <li>Achievement 4: Completed a certification in Web Development.</li>
-</ul>
-<ul class="achievement-box">
-    <li>Achievement 1: Successfully completed a project on time.</li>
-    <li>Achievement 2: Awarded Employee of the Month.</li>
-    <li>Achievement 3: Improved team productivity by 30%.</li>
-    <li>Achievement 4: Completed a certification in Web Development.</li>
-</ul><ul class="achievement-box">
-    <li>Achievement 1: Successfully completed a project on time.</li>
-    <li>Achievement 2: Awarded Employee of the Month.</li>
-    <li>Achievement 3: Improved team productivity by 30%.</li>
-    <li>Achievement 4: Completed a certification in Web Development.</li>
-</ul><ul class="achievement-box">
-    <li>Achievement 1: Successfully completed a project on time.</li>
-    <li>Achievement 2: Awarded Employee of the Month.</li>
-    <li>Achievement 3: Improved team productivity by 30%.</li>
-    <li>Achievement 4: Completed a certification in Web Development.</li>
-</ul></div>
-<h2 class="ctn-title">CONTACT</h2>
-<button class="ctn-button">contact now</button>
 
-<div class="footer">
-    <p class="ctn-details">
-        ph:123456789<br>
-        Email:abc123@efg.com 
-    </p>
-    <p>&copy; 2024 Staffing Agency. All rights reserved.</p>
-    <ul class="footer-links">
-        <li>Privacy Policy</li>
-        <li> Terms of Service</li>
-        <li> Contact Us</li>
-    </ul>
-</div>
 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section contact">
+                <h3>Contact Details</h3>
+                <p>Email: info@example.com</p>
+                <p>Phone: +123 456 7890</p>
+                <p>Address: 123 Main Street, City, Country</p>
+            </div>
+            <div class="footer-section important-links">
+                <h3>Important Links</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </div>
+            <div class="footer-section additional-details">
+                <h3>Additional Details</h3>
+                <p>Follow us on social media:</p>
+                <ul class="social-links">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
     
 </body>
 </html>
